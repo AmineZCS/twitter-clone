@@ -49,6 +49,29 @@ body{
     grid-row: 1/2;
     position: relative;
     }
+.right-content-form div{
+    position: relative;
+}
+.right-content-form label{
+    position: absolute;
+    top: 6rem;
+    left: 0rem;
+}
+.right-content-form input{
+    width: 20rem;
+    height: 4.5rem;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    font-size: 1.6rem;
+    border: #ddd 0.1rem solid;
+    background-color: #fff;
+    transition: all 0.3s;
+}
+.right-content-form input:focus{
+    background-color: #d9ebf7;
+    outline: none;
+}
 .right-content-form{
     display: flex;
     margin-top: 3rem;
