@@ -1,8 +1,19 @@
 /* common styles */
+<<<<<<< HEAD
+@font-face {
+    font-family:Josefin Sans ;
+    src: url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap');
+}
+=======
+>>>>>>> main
 *{
     margin: 0;
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
+<<<<<<< HEAD
+    outline: none;
+=======
+>>>>>>> main
 }
 html{
     font-size: 62.5%;
@@ -49,6 +60,49 @@ body{
     grid-row: 1/2;
     position: relative;
     }
+<<<<<<< HEAD
+.right-content-form div{
+    position: relative;
+}
+.right-content-form label{
+    position: absolute;
+    top: 6rem;
+    left: 0rem;
+    font-size: 1.6rem;
+    font-weight: 200;
+    color: #a7a6a6;
+}
+.btn-top{
+    width: 8rem;
+    border-radius: 3rem;
+    color: #1aa1f5;
+    background-color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    border: 0.1rem solid ;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+.btn-top:hover{
+    background-color: #d9ebf7;
+}
+.right-content-form input{
+    width: 20rem;
+    height: 4.5rem;
+    padding: 0 1rem;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    font-size: 1.6rem;
+    border: #ddd 0.1rem solid;
+    background-color: #fff;
+    transition: all 0.5s;
+}
+.right-content-form input:focus{
+    background-color: #d9ebf7;
+    outline: none;
+}
+=======
+>>>>>>> main
 .right-content-form{
     display: flex;
     margin-top: 3rem;
