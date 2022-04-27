@@ -1,19 +1,13 @@
 /* common styles */
-<<<<<<< HEAD
 @font-face {
     font-family:Josefin Sans ;
     src: url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600;700&display=swap');
 }
-=======
->>>>>>> main
 *{
     margin: 0;
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
-<<<<<<< HEAD
     outline: none;
-=======
->>>>>>> main
 }
 html{
     font-size: 62.5%;
@@ -60,7 +54,6 @@ body{
     grid-row: 1/2;
     position: relative;
     }
-<<<<<<< HEAD
 .right-content-form div{
     position: relative;
 }
@@ -101,8 +94,6 @@ body{
     background-color: #d9ebf7;
     outline: none;
 }
-=======
->>>>>>> main
 .right-content-form{
     display: flex;
     margin-top: 3rem;
